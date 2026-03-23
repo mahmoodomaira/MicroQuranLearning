@@ -3,7 +3,7 @@
     "surah": 78,
     "surah_name": "An-Naba",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ عَمَّ يَتَسَآءَلُونَ",
+    "arabic": "عَمَّ يَتَسَآءَلُونَ",
     "english": "About what are they asking one another?"
   },
   {
@@ -283,7 +283,7 @@
     "surah": 79,
     "surah_name": "An-Naazi'aat",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلنَّٰزِعَٰتِ غَرْقًۭا",
+    "arabic": "وَٱلنَّٰزِعَٰتِ غَرْقًۭا",
     "english": "By those [angels] who extract with violence"
   },
   {
@@ -605,7 +605,7 @@
     "surah": 80,
     "surah_name": "Abasa",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ عَبَسَ وَتَوَلَّىٰٓ",
+    "arabic": "عَبَسَ وَتَوَلَّىٰٓ",
     "english": "The Prophet frowned and turned away"
   },
   {
@@ -899,7 +899,7 @@
     "surah": 81,
     "surah_name": "At-Takwir",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+    "arabic": "إِذَا ٱلشَّمْسُ كُوِّرَتْ",
     "english": "When the sun is wrapped up [in darkness]"
   },
   {
@@ -1102,7 +1102,7 @@
     "surah": 82,
     "surah_name": "Al-Infitaar",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+    "arabic": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
     "english": "When the sky breaks apart"
   },
   {
@@ -1235,7 +1235,7 @@
     "surah": 83,
     "surah_name": "Al-Mutaffifin",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+    "arabic": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
     "english": "Woe to those who give less [than due],"
   },
   {
@@ -1487,7 +1487,7 @@
     "surah": 84,
     "surah_name": "Al-Inshiqaaq",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+    "arabic": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
     "english": "When the sky has split [open]"
   },
   {
@@ -1662,7 +1662,7 @@
     "surah": 85,
     "surah_name": "Al-Burooj",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+    "arabic": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
     "english": "By the sky containing great stars"
   },
   {
@@ -1816,7 +1816,7 @@
     "surah": 86,
     "surah_name": "At-Taariq",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+    "arabic": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
     "english": "By the sky and the night comer -"
   },
   {
@@ -1935,7 +1935,7 @@
     "surah": 87,
     "surah_name": "Al-A'laa",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+    "arabic": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
     "english": "Exalt the name of your Lord, the Most High,"
   },
   {
@@ -2068,7 +2068,7 @@
     "surah": 88,
     "surah_name": "Al-Ghaashiya",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
+    "arabic": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
     "english": "Has there reached you the report of the Overwhelming [event]?"
   },
   {
@@ -2250,7 +2250,7 @@
     "surah": 89,
     "surah_name": "Al-Fajr",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
+    "arabic": "وَٱلْفَجْرِ",
     "english": "By the dawn"
   },
   {
@@ -2460,7 +2460,7 @@
     "surah": 90,
     "surah_name": "Al-Balad",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ",
+    "arabic": "لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ",
     "english": "I swear by this city, Makkah -"
   },
   {
@@ -2600,7 +2600,7 @@
     "surah": 91,
     "surah_name": "Ash-Shams",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلشَّمْسِ وَضُحَىٰهَا",
+    "arabic": "وَٱلشَّمْسِ وَضُحَىٰهَا",
     "english": "By the sun and its brightness"
   },
   {
@@ -2705,7 +2705,7 @@
     "surah": 92,
     "surah_name": "Al-Lail",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+    "arabic": "وَٱلَّيْلِ إِذَا يَغْشَىٰ",
     "english": "By the night when it covers"
   },
   {
@@ -2852,7 +2852,7 @@
     "surah": 93,
     "surah_name": "Ad-Dhuhaa",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+    "arabic": "وَٱلضُّحَىٰ",
     "english": "By the morning brightness"
   },
   {
@@ -2929,7 +2929,7 @@
     "surah": 94,
     "surah_name": "Ash-Sharh",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+    "arabic": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
     "english": "Did We not expand for you, [O Muhammad], your breast?"
   },
   {
@@ -2985,7 +2985,7 @@
     "surah": 95,
     "surah_name": "At-Tin",
     "ayah": 1,
-    "arabic": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ",
+    "arabic": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
     "english": "By the fig and the olive"
   },
   {
@@ -3041,7 +3041,7 @@
     "surah": 96,
     "surah_name": "Al-Alaq",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+    "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
     "english": "Recite in the name of your Lord who created -"
   },
   {
@@ -3174,7 +3174,7 @@
     "surah": 97,
     "surah_name": "Al-Qadr",
     "ayah": 1,
-    "arabic": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+    "arabic": "إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
     "english": "Indeed, We sent the Qur'an down during the Night of Decree."
   },
   {
@@ -3209,7 +3209,7 @@
     "surah": 98,
     "surah_name": "Al-Bayyina",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
+    "arabic": "لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
     "english": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence -"
   },
   {
@@ -3265,7 +3265,7 @@
     "surah": 99,
     "surah_name": "Az-Zalzala",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+    "arabic": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
     "english": "When the earth is shaken with its [final] earthquake"
   },
   {
@@ -3321,7 +3321,7 @@
     "surah": 100,
     "surah_name": "Al-Aadiyaat",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+    "arabic": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
     "english": "By the racers, panting,"
   },
   {
@@ -3398,7 +3398,7 @@
     "surah": 101,
     "surah_name": "Al-Qaari'a",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
+    "arabic": "ٱلْقَارِعَةُ",
     "english": "The Striking Calamity -"
   },
   {
@@ -3475,7 +3475,7 @@
     "surah": 102,
     "surah_name": "At-Takaathur",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+    "arabic": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
     "english": "Competition in [worldly] increase diverts you"
   },
   {
@@ -3531,7 +3531,7 @@
     "surah": 103,
     "surah_name": "Al-Asr",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ",
+    "arabic": "وَٱلْعَصْرِ",
     "english": "By time,"
   },
   {
@@ -3552,7 +3552,7 @@
     "surah": 104,
     "surah_name": "Al-Humaza",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+    "arabic": "وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
     "english": "Woe to every scorner and mocker"
   },
   {
@@ -3615,7 +3615,7 @@
     "surah": 105,
     "surah_name": "Al-Fil",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+    "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
     "english": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?"
   },
   {
@@ -3650,7 +3650,7 @@
     "surah": 106,
     "surah_name": "Quraish",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
+    "arabic": "لِإِيلَٰفِ قُرَيْشٍ",
     "english": "For the accustomed security of the Quraysh -"
   },
   {
@@ -3678,7 +3678,7 @@
     "surah": 107,
     "surah_name": "Al-Maa'un",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+    "arabic": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
     "english": "Have you seen the one who denies the Recompense?"
   },
   {
@@ -3727,7 +3727,7 @@
     "surah": 108,
     "surah_name": "Al-Kawthar",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+    "arabic": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
     "english": "Indeed, We have granted you, [O Muhammad], al-Kawthar."
   },
   {
@@ -3748,7 +3748,7 @@
     "surah": 109,
     "surah_name": "Al-Kaafiroon",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+    "arabic": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
     "english": "Say, \"O disbelievers,"
   },
   {
@@ -3790,7 +3790,7 @@
     "surah": 110,
     "surah_name": "An-Nasr",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+    "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
     "english": "When the victory of Allah has come and the conquest,"
   },
   {
@@ -3811,7 +3811,7 @@
     "surah": 111,
     "surah_name": "Al-Masad",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+    "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
     "english": "May the hands of Abu Lahab be ruined, and ruined is he."
   },
   {
@@ -3846,7 +3846,7 @@
     "surah": 112,
     "surah_name": "Al-Ikhlaas",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+    "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
     "english": "Say, \"He is Allah, [who is] One,"
   },
   {
@@ -3874,7 +3874,7 @@
     "surah": 113,
     "surah_name": "Al-Falaq",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+    "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
     "english": "Say, \"I seek refuge in the Lord of daybreak"
   },
   {
@@ -3909,7 +3909,7 @@
     "surah": 114,
     "surah_name": "An-Naas",
     "ayah": 1,
-    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+    "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
     "english": "Say, \"I seek refuge in the Lord of mankind,"
   },
   {

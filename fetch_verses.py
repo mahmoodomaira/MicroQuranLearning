@@ -44,6 +44,15 @@ def main():
             "arabic": arabic_item["text"],
             "english": english_item["text"],
         })
+    
+    # Clean Basmala from Arabic text
+    for verse in verses:
+        if verse["ayah"] == 1:
+            # The API prepends Basmala to first ayah — find where it ends
+            # Basmala is always the first 4 words, separated by spaces
+            words = verse["arabic"].split(" ")
+            if len(words) > 4:
+                verse["arabic"] = " ".join(words[4:]).strip()
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(verses, f, ensure_ascii=False, indent=2)
