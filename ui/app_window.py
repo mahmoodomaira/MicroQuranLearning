@@ -9,6 +9,7 @@ class AppWindow:
     def __init__(self, verses):
         self.verses = verses
         self.current = 0
+        self.prayer_mode = False
         self.memorize = MemorizeController()
 
         root = tk.Tk()
@@ -24,11 +25,13 @@ class AppWindow:
             "prev": self.prev_verse,
             "next": self.next_verse,
             "memorize": self.toggle_memorize,
-            "reveal": self.reveal_next
+            "reveal": self.reveal_next,
+            "prayer": self.toggle_prayer
         }
         self.nav = NavControls(root, callbacks)
 
         self.show_verse(0)
+        root.bind("<space>", lambda event: self.next_verse())
         root.mainloop()
 
     def show_verse(self, index):
@@ -70,3 +73,8 @@ class AppWindow:
                 self.memorize.reset()
                 self.show_verse(self.current)
                 break
+            
+    def toggle_prayer(self):
+        self.prayer_mode = not self.prayer_mode
+        self.nav.set_prayer_active(self.prayer_mode)
+        self.display.set_prayer_mode(self.prayer_mode)
