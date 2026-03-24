@@ -1,3 +1,4 @@
+from email.mime import message
 import tkinter as tk
 
 class VerseDisplay:
@@ -13,6 +14,10 @@ class VerseDisplay:
 
         self.english_label = tk.Label(parent, text="", font=("Arial", 12), fg="#b0b8c1", bg="#1a1a2e", wraplength=600, justify="left")
         self.english_label.pack(pady=(10, 10))
+        
+        self.status_label = tk.Label(parent, text="", font=("Arial", 11),
+                              bg="#1a1a2e", fg="#4a90a4")
+        self.status_label.pack(pady=(4, 0))
 
     def update(self, verse, arabic_text):
         self.header_label.config(text=f"{verse['surah_name']} — Ayah {verse['ayah']}")
@@ -26,3 +31,6 @@ class VerseDisplay:
         else:
             self.arabic_label.config(font=("Traditional Arabic", 36))
             self.english_label.config(font=("Arial", 12))
+            
+    def set_status(self, message):
+        self.status_label.config(text=message)

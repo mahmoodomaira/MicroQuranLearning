@@ -26,7 +26,8 @@ class AppWindow:
             "next": self.next_verse,
             "memorize": self.toggle_memorize,
             "reveal": self.reveal_next,
-            "prayer": self.toggle_prayer
+            "prayer": self.toggle_prayer,
+            "speak": self.recite_verse
         }
         self.nav = NavControls(root, callbacks)
 
@@ -59,6 +60,7 @@ class AppWindow:
     def toggle_memorize(self):
         self.memorize.toggle()
         self.nav.set_memorize_active(self.memorize.active)
+        self.nav.set_speak_visible(self.memorize.active)
         self.show_verse(self.current)
 
     def reveal_next(self):
@@ -78,3 +80,33 @@ class AppWindow:
         self.prayer_mode = not self.prayer_mode
         self.nav.set_prayer_active(self.prayer_mode)
         self.display.set_prayer_mode(self.prayer_mode)
+        
+    def recite_verse(self):
+        if not self.memorize.active:
+            return
+
+        self.display.set_status("🎤 Listening... recite the full verse")
+
+        import threading
+        def listen():
+            from core.voice import listen_for_verse
+            from core.arabic_utils import score_recitation
+
+            spoken = listen_for_verse()
+            if spoken:
+                verse = self.verses[self.current]
+                matched, total = score_recitation(spoken, verse['arabic'])
+                percent = int((matched / total) * 100)
+
+                if percent == 100:
+                    self.display.set_status(f"✅ Perfect! {matched}/{total} words")
+                elif percent >= 60:
+                    self.display.set_status(f"🟡 Good: {matched}/{total} words — try again")
+                else:
+                    self.display.set_status(f"❌ {matched}/{total} words — keep practicing")
+            else:
+                self.display.set_status("❌ Could not hear — try again")
+
+            self.show_verse(self.current)
+
+        threading.Thread(target=listen, daemon=True).start()

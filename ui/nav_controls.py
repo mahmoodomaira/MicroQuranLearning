@@ -25,6 +25,11 @@ class NavControls:
                             bg="#4a90a4", fg="#ffffff",
                             relief="flat", padx=16, pady=6)
         self.prayer_btn.pack(side=tk.LEFT, padx=5)
+        
+        self.speak_btn = tk.Button(self.frame, text="🎤 Recite", command=callbacks["speak"],
+                           bg="#4a90a4", fg="#ffffff",
+                           relief="flat", padx=16, pady=6)
+        # Don't pack it yet — only shown in memorize mode
 
     def set_memorize_active(self, active):
         if active:
@@ -45,3 +50,9 @@ class NavControls:
             self.next_btn.pack(side=tk.LEFT, padx=5, before=self.prayer_btn)
             self.memorize_btn.pack(side=tk.LEFT, padx=5, before=self.prayer_btn)
             self.reveal_btn.pack(side=tk.LEFT, padx=5, before=self.prayer_btn)
+            
+    def set_speak_visible(self, visible):
+        if visible:
+            self.speak_btn.pack(side=tk.LEFT, padx=5)
+        else:
+            self.speak_btn.pack_forget()
