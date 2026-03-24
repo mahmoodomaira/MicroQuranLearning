@@ -3,7 +3,7 @@ import requests
 
 ARABIC_URL = "https://api.alquran.cloud/v1/juz/30/quran-uthmani"
 ENGLISH_URL = "https://api.alquran.cloud/v1/juz/30/en.sahih"
-OUTPUT_FILE = "verses.json"
+OUTPUT_FILE = "data/verses.json"
 
 
 def fetch_json(url):
