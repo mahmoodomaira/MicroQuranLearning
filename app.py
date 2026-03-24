@@ -4,6 +4,9 @@ import tkinter as tk
 # 1. Load the data
 with open("verses.json", encoding="utf-8") as f:
     verses = json.load(f)
+    
+memorize_mode = False
+revealed_count = 0
 
 # 2. Track the current index
 current = 0
@@ -11,13 +14,43 @@ current = 0
 def show_verse(index):
     verse = verses[index]
     header_label.config(text=f"{verse['surah_name']} — Ayah {verse['ayah']}")
-    arabic_label.config(text=verse['arabic'])
     english_label.config(text=verse['english'])
+
+    if memorize_mode:
+        words = verse['arabic'].split(" ")
+        masked = []
+        for i, word in enumerate(words):
+            if i < revealed_count:
+                masked.append(word)
+            else:
+                masked.append("___")
+        arabic_label.config(text=" ".join(masked))
+    else:
+        arabic_label.config(text=verse['arabic'])
+        
+def toggle_memorize():
+    global memorize_mode, revealed_count
+    memorize_mode = not memorize_mode
+    revealed_count = 0
+    if memorize_mode:
+        memorize_button.config(bg="#c0392b", fg="#ffffff", text="Exit Memorize")
+    else:
+        memorize_button.config(bg="#e0c97f", fg="#1a1a2e", text="Memorize")
+    show_verse(current)
+
+def reveal_next():
+    global revealed_count
+    if not memorize_mode:
+        return
+    words = verses[current]['arabic'].split(" ")
+    if revealed_count < len(words):
+        revealed_count += 1
+    show_verse(current)
 
 # 3. Create the main window
 root = tk.Tk()
 root.title("Quran Reader")
-root.geometry("700x400")
+root.geometry("750x450")
 root.configure(bg="#1a1a2e")
 
 # 4. Display three labels
@@ -38,12 +71,14 @@ def prev_verse():
     global current
     if current > 0:
         current -= 1
+        revealed_count = 0
         show_verse(current)
 
 def next_verse():
-    global current
+    global current, revealed_count
     if current < len(verses) - 1:
         current += 1
+        revealed_count = 0
         show_verse(current)
 
 nav_frame = tk.Frame(root, bg="#1a1a2e")
@@ -54,6 +89,14 @@ prev_button.pack(side=tk.LEFT, padx=20)
 
 next_button = tk.Button(nav_frame, text="Next", command=next_verse, bg="#e0c97f", fg="#1a1a2e", relief="flat", padx=16, pady=6)
 next_button.pack(side=tk.LEFT, padx=20)
+
+memorize_button = tk.Button(nav_frame, text="Memorize", command=toggle_memorize,
+                            bg="#e0c97f", fg="#1a1a2e", relief="flat", padx=16, pady=6)
+memorize_button.pack(side=tk.LEFT, padx=20)
+
+reveal_button = tk.Button(nav_frame, text="Reveal Word", command=reveal_next,
+                          bg="#e0c97f", fg="#1a1a2e", relief="flat", padx=16, pady=6)
+reveal_button.pack(side=tk.LEFT, padx=20)
 
 # Show the first verse initially
 show_verse(current)
